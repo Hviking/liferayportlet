@@ -1,0 +1,52 @@
+.olControlLTOverviewMapContainer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #FFFFFF;
+}
+.olControlLTOverviewMapElement {
+    border-top:6px double #888888;
+    border-left:6px double #888888;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+	/*border:1px solid #000000 !important;
+    
+	padding: 4px 4px 4px 4px !important;
+	padding: 1px 1px 1px 1px;
+	background-color: #ffffff !important;
+	background-color: #ffffff;
+	-moz-border-radius: 1em 0 0 0;
+	border:1px solid #000000;*/
+}
+
+.olControlLTOverviewMapMinimizeButton {
+    right: 0px;
+    bottom: 0px !important;
+    bottom: 0px;
+}    
+
+.olControlLTOverviewMapMaximizeButton {
+    right: 0px;
+    bottom: 0px !important;
+    bottom: 0px;
+}
+
+.olControlLTOverviewMapExtentRectangle {
+    overflow: hidden;
+    /*background-image: url("rect.gif");
+    background-repeat: no-repeat;
+    background-position: center;*/
+    cursor: move;
+    border: 2px solid red !important;
+    //background:#D8DDE9;/*background:#69F;*/
+    filter:alpha(opacity=60);/* IE */ 
+    -moz-opacity:0.6;/* Moz + FF */ 
+    opacity: 0.6; /* ֧��CSS3���������FF 1.5Ҳ֧�֣�*/
+}
+.olControlLTOverviewMapRectReplacement {
+    overflow: hidden;
+    cursor: move;
+    background-image: url("img/overview_replacement.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
